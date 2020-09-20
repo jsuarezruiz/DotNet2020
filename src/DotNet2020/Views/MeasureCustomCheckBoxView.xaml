@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:DotNet2020.Controls"
+    x:Class="DotNet2020.Views.MeasureCustomCheckBoxView"
+    Title="Measure CustomCheckBox">
+    <ContentPage.Content>
+        <StackLayout
+            x:Name="ParentLayout"
+            Padding="12">
+            <Label
+                x:Name="InfoLabel"/>
+            <controls:CustomCheckBox />
+            <controls:CustomCheckBox />
+            <controls:CustomCheckBox />
+            <controls:CustomCheckBox />
+            <controls:CustomCheckBox />
+            <controls:CustomCheckBox />
+            <controls:CustomCheckBox />
+            <controls:CustomCheckBox />
+            <controls:CustomCheckBox />
+            <controls:CustomCheckBox />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
